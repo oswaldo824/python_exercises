@@ -1,0 +1,6 @@
+mascotas = ["Pelusa", "Pulga", "Felipe", "Chanchito feliz"]
+
+for indice, mascota in enumerate(mascotas):
+    print(indice, mascota)
+# enumerate devuelve una tupla (indice, valor)
+# Al usar indice y mascota, se desempaqueta la tupla y puedo usar los valores por aparte
